@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useInView } from "react-Intersection-observer";
+import { useInView } from "react-intersection-observer";
 import { useEffect, useState } from "react";
 import { fetchAnime } from "@/app/action";
 import AnimeCard from "./AnimeCard";
